@@ -1,11 +1,11 @@
 package lesson14;
 
-public class HomePhone  extends Phone {
+public class HomePhone extends Phone {
     private String buzzer;
 
     public HomePhone() {
-setName("Philips");
-setNumber("32223");
+        setName("Philips");
+        setNumber("32223");
     }
 
     public HomePhone(String buzzer) {
@@ -18,7 +18,7 @@ setNumber("32223");
     }
 
     public void call() {
-      //  super.call();
+        //  super.call();
         System.out.println("Звенит звонок " + buzzer);
     }
 }
