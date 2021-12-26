@@ -8,13 +8,4 @@ public class Lamp extends Device{
     }
 
 
-    public void tornOn(){
-        super.turnOn();
-        System.out.println(getName() + " " + isStutys() );
-    }
-
-    public void tornOff(){
-        super.turnOff();
-        System.out.println(getName() + " " + isStutys() );
-    }
 }

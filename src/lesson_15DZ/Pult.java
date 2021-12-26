@@ -18,5 +18,6 @@ public class Pult {
         dev.add(tv);
         tv.turnOn();
         dev.getStutys();
+        dev.turnOn();
     }
 }
