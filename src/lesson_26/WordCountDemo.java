@@ -14,10 +14,11 @@ public class WordCountDemo {
         String[] words = line.split(" ");
         Map<String, Integer> wordToCount = new HashMap<>();
         for (String word : words) {
-            Integer count = wordToCount.get(word);
-            if (count == null) {
-                count = 0;
-            }
+            int count = wordToCount.getOrDefault(word,0);
+            //Integer count = wordToCount.get(word);
+           // if (count == null) {
+              //  count = 0;
+           // }
             wordToCount.put(word, count + 1);
 
         }
