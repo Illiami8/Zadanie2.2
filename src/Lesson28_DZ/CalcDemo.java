@@ -24,7 +24,7 @@ public class CalcDemo {
                 }
             }
         }
-        String[] symbol = str.split(" ");
+            String[] symbol = str.split(" ");
 
         String aString = null;
         String operation = null;
